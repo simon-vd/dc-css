@@ -1,0 +1,16 @@
+li[class*="channel__972a0 dm__972a0"] {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+
+
+li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1248009471788056607"]) {
+    background-image: url(https://cdn.discordapp.com/attachments/1182776927652675737/1374147305090842704/TgousJT.png?ex=682ef827&is=682da6a7&hm=0c570463b79596281e0ebb50a7d26d777206956052c5c9b512051eb4ce8b952f&); 
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 100% 25%;
+}
