@@ -8,8 +8,9 @@ li[class*="channel__972a0 dm__972a0"] {
 
 
 
+/* des */
 li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1248009471788056607"]) {
-    background-image: url(https://cdn.discordapp.com/attachments/1182776927652675737/1374147305090842704/TgousJT.png?ex=68319b27&is=683049a7&hm=c16e405c2d007a526c1d755d599c93bba79490386b18e692af444a12ada89341&); 
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTRjZ3VvcGZteXJxODRndjFqb2F2eWp4YzZvc3R2eXE5djh1cHllaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Pd6qtNx1zfG9C0cQbP/giphy.gif); 
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 100% 25%;
