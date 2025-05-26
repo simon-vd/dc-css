@@ -46,10 +46,18 @@ li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/133355178115780
     background-position: center;
 }
 
-/* worm */
+/* a very weird worm person */
 li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1346599063448981515"]) {
     background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNpMTM5eDJoMTJpMnBoOWZpYnp4ZHFwcnl1NHZiM3lxN28ydWRoNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0D4885TZWK9OJBSfmo/giphy.gif); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* exxi */
+li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1335717508468178994"]) {
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTRjamRkOXVpZHBnMGVjOWJrZGN4ODdhYmJkdTR2MnByc3h6c2Y4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3uQutqFLzUXn5bt9Y5/giphy.gif); 
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 80% 80%;
 }
