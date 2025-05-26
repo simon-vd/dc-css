@@ -37,3 +37,19 @@ li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/110913565262638
     background-repeat: no-repeat;
     background-position: center;
 } 
+
+/* millie */
+li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1333551781157802065"]) {
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWl2dm1vOWZvc3Z4amNhM3F0YnRsbGh1cHYwdTRidm9taDdjMXJjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gwhf0rHUZfibTouUHX/giphy.gif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* worm */
+li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1346599063448981515"]) {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNpMTM5eDJoMTJpMnBoOWZpYnp4ZHFwcnl1NHZiM3lxN28ydWRoNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0D4885TZWK9OJBSfmo/giphy.gif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
