@@ -1,81 +1,24 @@
-
-/* 
-questions ?
-contact me
-dc: desondanks
-
-only people who have this theme on will be able to see the changes
-*/
-
-/* just giving the dms some more space */
-li[class*="channel__972a0 dm__972a0"] {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-/* myself */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1248009471788056607"]) {
-    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTRjZ3VvcGZteXJxODRndjFqb2F2eWp4YzZvc3R2eXE5djh1cHllaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Pd6qtNx1zfG9C0cQbP/giphy.gif); 
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: 100% 25%;
-}
-
-/* these are to get a custom gif/photo/whatever you want, as a banner */
-
-/* this is for the banner in a dm (like the one on the right) */
-div[class*="outer_c0bea0"]:has(div[aria-label="desondanks, Online"]) {
-    div[class="banner__68edb banner__7f9c0"] {
-        background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ibDA2M2RlNDI0d2Ztano1Mjg5dnVmbXhrejZtdnQ3eTUxZjg3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VVGOKLFJI5jOP46SKS/giphy.gif);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 50% 0%;
-    }
-}
-
-/* this one is for then they click on your profile */
-div[class*="inner_c0bea0"]:has(div[aria-label="desondanks, Online"]) {
-    div[class*="banner__68edb"] {
-        background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ibDA2M2RlNDI0d2Ztano1Mjg5dnVmbXhrejZtdnQ3eTUxZjg3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VVGOKLFJI5jOP46SKS/giphy.gif);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 50% 0%;
+div[class="base_c48ade"] {
+    background-color: black;
+    div[class="content_c48ade"] {
+        background: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3l5bnB5Y3d1eGs2eTAydzJyMzdodGwyNHJudWZya281NnozdmllZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/N3DFBM3S2rgLuyummQ/giphy.gif);
+        
+        * {
+            background-color: rgba(0, 0, 0, 0);
+        }
     }
 }
 
 
-
-
-
-/* Sen */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1109135652626382909"]) {
-    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRrN3dyejMzc2c1dzgzMm9jMHQwbzkzYmhxYW04bGxmNGtiZnQ5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oQumjUSr7bMX9P7nzo/giphy.gif); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-} 
-
-/* millie */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1333551781157802065"]) {
-    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWl2dm1vOWZvc3Z4amNhM3F0YnRsbGh1cHYwdTRidm9taDdjMXJjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gwhf0rHUZfibTouUHX/giphy.gif); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* a very weird worm person */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1346599063448981515"]) {
-    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNpMTM5eDJoMTJpMnBoOWZpYnp4ZHFwcnl1NHZiM3lxN28ydWRoNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0D4885TZWK9OJBSfmo/giphy.gif); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* exxi */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1335717508468178994"]) {
-    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTRjamRkOXVpZHBnMGVjOWJrZGN4ODdhYmJkdTR2MnByc3h6c2Y4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3uQutqFLzUXn5bt9Y5/giphy.gif); 
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: 80% 80%;
+div[class*="content_c48ade"]:has(div[aria-label="desondanks"]) {
+    div[class*="page_c48ade"] {
+        div[class="none_d125d2 scrollerBase_d125d2"] {
+            
+            background-image: url(https://media.tenor.com/YbzQM17QUG0AAAAi/cat-cats.gif);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+        }
+        
+    }
 }
