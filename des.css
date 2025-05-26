@@ -3,23 +3,15 @@
 questions ?
 contact me
 dc: desondanks
+
+only people who have this theme on will be able to see the changes
 */
 
+/* just giving the dms some more space */
 li[class*="channel__972a0 dm__972a0"] {
-    
     margin-top: 10px;
     margin-bottom: 10px;
-    
-
 }
-
-
-/* li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/[CHANNEL_ID]"]) {
-    background-image: url([PATH_TO_GIF]); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 
 
 /* myself */
@@ -29,6 +21,32 @@ li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/124800947178805
     background-repeat: no-repeat;
     background-position: 100% 25%;
 }
+
+/* these are to get a custom gif/photo/whatever you want, as a banner */
+
+/* this is for the banner in a dm (like the one on the right) */
+div[class*="outer_c0bea0"]:has(div[aria-label="desondanks, Online"]) {
+    div[class="banner__68edb banner__7f9c0"] {
+        background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ibDA2M2RlNDI0d2Ztano1Mjg5dnVmbXhrejZtdnQ3eTUxZjg3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VVGOKLFJI5jOP46SKS/giphy.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+    }
+}
+
+/* this one is for then they click on your profile */
+div[class*="inner_c0bea0"]:has(div[aria-label="desondanks, Online"]) {
+    div[class*="banner__68edb"] {
+        background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ibDA2M2RlNDI0d2Ztano1Mjg5dnVmbXhrejZtdnQ3eTUxZjg3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VVGOKLFJI5jOP46SKS/giphy.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+    }
+}
+
+
+
+
 
 /* Sen */
 li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1109135652626382909"]) {
