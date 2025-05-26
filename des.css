@@ -1,4 +1,4 @@
-div[class="base_c48ade"] {
+/* div[class="base_c48ade"] {
     background-color: black;
     div[class="content_c48ade"] {
         background: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3l5bnB5Y3d1eGs2eTAydzJyMzdodGwyNHJudWZya281NnozdmllZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/N3DFBM3S2rgLuyummQ/giphy.gif);
@@ -7,7 +7,7 @@ div[class="base_c48ade"] {
             background-color: rgba(0, 0, 0, 0);
         }
     }
-}
+} */
 
 
 div[class*="content_c48ade"]:has(div[aria-label="desondanks"]) {
