@@ -14,6 +14,13 @@ li[class*="channel__972a0 dm__972a0"] {
 }
 
 
+/* li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/[CHANNEL_ID]"]) {
+    background-image: url([PATH_TO_GIF]); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
 
 /* myself */
 li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1248009471788056607"]) {
@@ -22,3 +29,11 @@ li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/124800947178805
     background-repeat: no-repeat;
     background-position: 100% 25%;
 }
+
+/* Sen */
+li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1109135652626382909"]) {
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRrN3dyejMzc2c1dzgzMm9jMHQwbzkzYmhxYW04bGxmNGtiZnQ5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oQumjUSr7bMX9P7nzo/giphy.gif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
