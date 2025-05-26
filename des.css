@@ -10,15 +10,9 @@
 } */
 
 
-div[class*="content_c48ade"]:has(div[aria-label="desondanks"]) {
-    div[class*="page_c48ade"] {
-        div[class="none_d125d2 scrollerBase_d125d2"] {
-            
-            background-image: url(https://media.tenor.com/YbzQM17QUG0AAAAi/cat-cats.gif);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: 50% 100%;
-        }
-        
-    }
+.visual-refresh .panels_c48ade {
+    background-image: url(https://media.tenor.com/YbzQM17QUG0AAAAi/cat-cats.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
